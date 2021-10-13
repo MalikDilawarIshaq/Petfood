@@ -1,0 +1,928 @@
+@font-face {
+    font-family: arial;
+    src: url(./Fonts/Arialn.ttf);
+    src: url(./Fonts/ArialTh.ttf);
+    src: url(./Fonts/ARIBL0.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(./Fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf);
+    src: url(./Fonts/Helvetica\ Neue\ Medium\ Extended.ttf);
+    src: url(./Fonts/Helvetica\ Neue\ UltraLight.ttf);
+    src: url(./Fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf);
+    src: url(./Fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.ttf);
+    src: url(./Fonts/Helvetica\ Neue\ W01\ 87\ Hv\ Cn\ Obl.ttf);
+    src: url(./Fonts/Helvetica\ NeueLTW0693BlkExtObl.ttf);
+}
+
+.font-Helvetica {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.font-Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-Roboto_Condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.font-Arial {
+    font-family: 'arial', sans-serif;
+}
+
+.font-Abril {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.margin-t-62 {
+    margin-top: 62px;
+}
+
+.margin-b-60 {
+    margin-bottom: 60px;
+}
+
+
+height-155 {
+    height: 155px;
+}
+
+.width-573 {
+    width: 573px;
+}
+
+.set input::placeholder {
+    color: #F25705;
+    font-size: 12px;
+
+}
+
+.padding-left-29 {
+    padding-left: 29px;
+}
+
+.set input {
+    border-color: #bdccbc;
+}
+
+.svg-setting {
+    width: 14px;
+    height: 15px;
+    color: #F25705;
+    position: relative;
+    top: 2px;
+    right: 96%;
+}
+
+.svg1-setting {
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+}
+
+.svg2-setting {
+    width: 17px;
+    height: 12px;
+}
+
+.svg3-setting {
+    width: 15px;
+    height: 13px;
+    color: rgba(244, 29, 71, 1);
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.svg4-setting {
+    width: 16px;
+    height: 16px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 2px;
+    left: 2px;
+
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.setting {
+    width: 30px;
+    height: 30px;
+    background: #1bb6ea;
+    border-radius: 100px;
+}
+
+.padding-b-7 {
+    padding-bottom: 7px;
+}
+
+.border-right {
+    border-right: 1px solid;
+    height: 11px;
+    border-color: #587b7f;
+}
+
+.background-blue-dark {
+    background-color: #052962;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.height-41 {
+    height: 41px;
+}
+
+.m-w-1600 {
+    max-width: 1600px;
+}
+
+.btn-setting {
+    background: transparent;
+    border: 0px;
+    width: 60px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    bottom: 1px;
+}
+
+.border {
+    border: 1px solid #e0dcdc;
+}
+
+.border-1 {
+    border-top: 2px solid rgba(145, 154, 153, 0.69);
+    font-weight: 600;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-840 {
+    width: 840px;
+}
+
+/* background-image_____________CAT */
+
+
+.bg-cat-img {
+    background-image: url("./images/cat assets2/cat_homepage_relaxing_cat.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 588px;
+}
+
+
+
+/* Cards */
+
+.p-relative {
+    position: relative;
+    bottom: 180px;
+}
+
+.p-relative1 {
+    width: 90%;
+    background-color: rgba(191, 209, 229, 0.23);
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.card {
+    background-color: white;
+    width: 18%;
+    border: 1px solid rgba(230, 228, 228, 1);
+}
+
+.card p {
+    color: rgba(38, 144, 140, 1);
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card a {
+    color: rgba(131, 131, 131, 1);
+    font-weight: 600;
+}
+
+
+/* Footer */
+.bg-footer {
+    background-image: url(./images/cat\ assets2/footer-paws.jpg);
+    background-size: cover;
+    height: 390px;
+}
+
+.footer {
+    background-color: rgba(41, 47, 49, .71);
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.height-36 {
+    height: 36px;
+}
+
+.placeholder input::placeholder {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.padding-t-6 {
+    padding-top: 6px;
+}
+
+.width-268 {
+    width: 268px;
+}
+
+.width-840 {
+    width: 840px;
+}
+
+.width-85 {
+    width: 85%;
+}
+
+.width-92 {
+    width: 92%;
+}
+
+.bg-yellow {
+    background-color: #FFDD00;
+}
+.text-align{
+    text-align: left;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+
+
+@media (min-width:0px) and (max-width:378px) {
+
+    .w-100-resp {
+        width: 100%;
+        padding-top: 0px !important;
+    }
+
+    .header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 105px;
+    }
+
+    .bg-cat-img {
+        background-image: url("./images/cat\ assets2/Mask-Group-77.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 266px;
+    }
+
+
+    .content-c-resp {
+        justify-content: center !important;
+        width: 96%;
+    }
+
+    .h-73-resp {
+        height: 73px;
+    }
+
+    .set-resp {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .svg-setting-resp {
+        width: 14px;
+        height: 15px;
+        color: #F25705;
+        position: relative;
+        bottom: 30px;
+        left: 10px;
+    }
+
+    .column-resp {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 90%;
+    }
+
+    .column-resp-before-768 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .p-relative {
+        bottom: 100px;
+    }
+
+    .font-24 {
+        font-size: 28px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+    .resp-at-mobile{
+        text-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px!important;
+    }
+
+
+
+
+
+
+    .set-w-resp {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .w-full-resp {
+        width: 100% !important;
+    }
+
+    .w-full-resp-95 {
+        width: 95% !important;
+    }
+
+    .bg-footer-resp {
+        background-position: center;
+        height: 670px;
+        margin-top: 0px!important;
+    }
+
+    .footer {
+        background-color: rgba(41, 47, 49, .91);
+    }
+}
+
+
+
+
+@media (min-width:379px) and (max-width:427px) {
+
+    .w-100-resp {
+        width: 100%;
+        padding-top: 0px !important;
+    }
+
+    .header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 105px;
+    }
+
+    .bg-cat-img {
+        background-image: url("./images/cat\ assets2/Mask-Group-77.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .content-c-resp {
+        justify-content: center !important;
+        width: 96%;
+    }
+
+    .h-73-resp {
+        height: 73px;
+    }
+
+    .set-resp {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .svg-setting-resp {
+        width: 14px;
+        height: 15px;
+        color: #F25705;
+        position: relative;
+        bottom: 30px;
+        left: 10px;
+    }
+
+    .column-resp {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 90%;
+    }
+
+    .column-resp-before-768 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .p-relative {
+        bottom: 110px;
+    }
+
+    .font-24 {
+        font-size: 28px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+    .resp-at-mobile{
+        text-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px!important;
+    }
+
+
+
+
+
+
+    .set-w-resp {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .w-full-resp {
+        width: 100% !important;
+    }
+
+    .w-full-resp-95 {
+        width: 95% !important;
+    }
+
+    .bg-footer-resp {
+        background-position: center;
+        height: 670px;
+        margin-top: 0px!important;
+    }
+
+    .footer {
+        background-color: rgba(41, 47, 49, .91);
+    }
+}
+
+
+@media (min-width:428px) and (max-width:540px) {
+
+    .w-100-resp {
+        width: 100%;
+        padding-top: 0px !important;
+    }
+
+    .header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 105px;
+    }
+
+    .bg-cat-img {
+        background-image: url("./images/cat\ assets2/Mask-Group-77.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+
+    .content-c-resp {
+        justify-content: center !important;
+        width: 96%;
+    }
+
+    .h-73-resp {
+        height: 73px;
+    }
+
+    .set-resp {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .svg-setting-resp {
+        width: 14px;
+        height: 15px;
+        color: #F25705;
+        position: relative;
+        bottom: 30px;
+        left: 10px;
+    }
+
+    .column-resp {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 90%;
+    }
+
+    .column-resp-before-768 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .p-relative {
+        bottom: 134px;
+    }
+
+    .font-24 {
+        font-size: 28px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+    .resp-at-mobile{
+        text-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px!important;
+    }
+
+
+
+
+
+
+    .set-w-resp {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .w-full-resp {
+        width: 100% !important;
+    }
+
+    .w-full-resp-95 {
+        width: 95% !important;
+    }
+
+    .bg-footer-resp {
+        background-position: center;
+        height: 670px;
+        margin-top: 0px!important;
+    }
+
+    .footer {
+        background-color: rgba(41, 47, 49, .91);
+    }
+}
+
+
+
+@media (min-width:541px) and (max-width:640px) {
+
+    .w-100-resp {
+        width: 100%;
+        padding-top: 0px !important;
+    }
+
+    .header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 105px;
+    }
+
+    .bg-cat-img {
+        background-image: url("./images/cat\ assets2/Mask-Group-77.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 452px;
+    }
+
+
+    .content-c-resp {
+        justify-content: center !important;
+        width: 96%;
+    }
+
+    .h-73-resp {
+        height: 73px;
+    }
+
+    .set-resp {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .svg-setting-resp {
+        width: 14px;
+        height: 15px;
+        color: #F25705;
+        position: relative;
+        bottom: 30px;
+        left: 10px;
+    }
+
+    .column-resp {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 90%;
+    }
+
+    .column-resp-before-768 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .p-relative {
+        bottom: 130px;
+    }
+
+    .font-24 {
+        font-size: 28px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+    .resp-at-mobile{
+        text-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px!important;
+    }
+
+
+
+
+
+
+    .set-w-resp {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .w-full-resp {
+        width: 100% !important;
+    }
+
+    .w-full-resp-95 {
+        width: 95% !important;
+    }
+
+    .bg-footer-resp {
+        background-position: center;
+        height: 670px;
+        margin-top: 0px!important;
+    }
+
+    .footer {
+        background-color: rgba(41, 47, 49, .91);
+    }
+}
+
+
+
+@media (min-width:641px) and (max-width:768px) {
+
+
+    .header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 105px;
+    }
+
+    .bg-cat-img {
+        background-image: url("./images/cat\ assets2/Mask-Group-77.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 541px;
+    }
+
+    .content-c-resp {
+        justify-content: center !important;
+        width: 96%;
+    }
+
+    .h-73-resp {
+        height: 73px;
+    }
+
+    .set-resp {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .svg-setting-resp {
+        width: 14px;
+        height: 15px;
+        color: #F25705;
+        position: relative;
+        bottom: 30px;
+        left: 10px;
+    }
+
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 70%;
+    }
+
+    .column-resp-before-768 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 40%;
+    }
+
+    .p-relative {
+        bottom: 125px;
+    }
+
+    .font-24 {
+        font-size: 28px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+    .set-w-resp {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .w-full-resp {
+        width: 100% !important;
+    }
+
+    .w-full-resp-95 {
+        width: 95% !important;
+    }
+
+    .bg-footer-resp {
+        background-position: center;
+        height: 670px;
+    }
+
+    .footer {
+        background-color: rgba(41, 47, 49, .91);
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+
+    .header {
+        height: 110px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 105px;
+    }
+
+    .dd-w-resp {
+        width: 613px;
+    }
+
+    .hidden-1024 {
+        display: none !important;
+    }
+
+    .hidden-769 {
+        display: none !important;
+    }
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 30%;
+    }
+}
+
+
+
+@media (min-width:1024px) and (max-width:1150px) {
+
+    .hidden-1024 {
+        display: none !important;
+    }
+
+    .w-85-resp {
+        width: 85%;
+    }
+
+    .w-22-card-resp {
+        width: 22%;
+    }
+
+}
