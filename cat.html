@@ -11,11 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@1,900&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -123,7 +118,7 @@
 
             <div class=" is-flex m-w-1600  is-justify-content-space-between 
                    content-c-resp height-41 is-align-items-center   width-90">
-                <div class="is-hidden-tablet control set set-resp-1  ">
+                <div class="is-hidden-tablet control set set-resp  ">
                     <input class="padding-left-29 width-100 font-Arial input has-text-danger width-573" type="text"
                         placeholder="SEARCH">
 
@@ -142,7 +137,8 @@
                 <!-- Drop Down -->
                 <div class="is-hidden-mobile is-block-tablet dropdown  is-hoverable">
                     <div class="dropdown-trigger is-flex">
-                        <button class="btn-setting" aria-haspopup="true" aria-controls="dropdown-menu4">
+                        <button class="btn-setting" aria-haspopup="true" aria-controls="dropdown-menu4"
+                        onclick="window.location.href = 'cat.html'">
                             CAT </button>
                     </div>
                     <div class="dropdown-menu" id="dropdown-menu4" role="menu">
@@ -152,7 +148,7 @@
                                 <a href="#" class="dropdown-item font-Roboto_Condensed">Dry Cat Food</a>
                                 <a href="#" class="dropdown-item font-Roboto_Condensed">Wet Cat Food</a>
                                 <a href="#" class="dropdown-item font-Roboto_Condensed">Special Diets</a>
-                                <a href="#" class="dropdown-item font-Roboto_Condensed">Kitten Food</a>
+                                <a href="kitten.html" class="dropdown-item font-Roboto_Condensed">Kitten Food</a>
                                 <a href="#" class="dropdown-item has-text-weight-bold font-Roboto mt-5">Cat Treats</a>
                                 <a href="#" class="dropdown-item font-Roboto_Condensed">Biscuits</a>
                             </div>
@@ -214,752 +210,110 @@
                 </a>
 
             </div>
-        </div>
+        </div> 
+         
+         <!-- Header Area END -->
 
-        <!-- Header Area END -->
 
-
-        <div class="width-100 mt-5 is-flex is-justify-content-center">
-            <div class="width-90 max-width-1600 is-flex">
-                <a class="is-hidden-mobile is-block-tablet font-Lato w-spacing-6 color-707070 "> Home | </a>
-                <a class="is-hidden-mobile is-block-tablet font-Lato w-spacing-6 color-707070 pl-3 "> Cat | </a>
-                <a class="is-hidden-mobile is-block-tablet font-Lato color-05AFF2 pl-3 "> Kitten </a>
-                <button class=" cursor-pointer t-btn is-hidden-tablet" ><a
-                    class="color-707070 has-text-weight-bold is-size-6 font-Roboto_Condensed mt-5 cursor-pointer">Lifestages</a></button>
-            </div>
-        </div>
-
-        <!-- bg-Img -->
-        <div class="is-full mt-5  bg-cat-img">
+        <div class="is-full mt-6  bg-cat-img">
 
         </div>
-
-        <!-- container over bg img -->
-
-        <div class=" width-100 is-flex is-flex-direction-row-reverse is-justify-content-center positoin-relative">
-            <div class="flex-center max-width-1600 width-100 is-flex is-flex-direction-row-reverse is-justify-content-end">
-                <div class="width-81-8 resp-w-95  is-flex is-justify-content-center">
-                    <div
-                        class=" width-81-5 resp-w-95 resp-w-82  set-border has-background-white border-AFE9F1 is-flex is-flex-direction-column is-align-items-center ">
-                        <h1 class="font-28-resp font-36 font-Abril color-707070 pt-4 pb-4 text-center">
-                            All Brands of Kitten Food
-                        </h1>
-                        <p class="width-resp-95 width-91 font-Roboto mb-4 is-size-6 color-707070 text-center">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed eget arcu nec nunc eleifend gravida pellentesque id tellus.
-                            Maecenas sit amet elit lorem. Vivamus efficitur, odio et
-                            interdum fringilla, velit felis cursus felis, quis eleifend
-                            odio lorem sed ligula. Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Fusce posuere, nisi vel elementum dapibus,
-                            risus ligula hendrerit nisl, non pretium lorem arcu ac ex.
-                            Etiam dictum quam vitae venenatis sagittis. Vestibulum
-                            elementum pellentesque est, eget molestie lorem pulvinar ac.
-                            Praesent placerat dapibus ex, ac facilisis nulla tincidunt
-                            at.
-                        </p>
+          
+            <!-- Cadrs  -->
+              
+            <div class="is-flex width-100 is-justify-content-center p-relative">
+                <div class="w-85-resp m-w-1600 p-relative1">
+                <p class="font-Abril resp-at-mobile my-5 py-2 has-text-white is-flex is-justify-content-center  font-24" >all you need for a healthy & happy CAT</p>
+                <div class="column-resp-before-768 width-100 is-flex is-justify-content-space-evenly">
+                         <!-- Card-1 -->
+                    <div class="w-22-card-resp card mb-4 pb-1 is-flex is-flex-direction-column is-align-items-center">
+                      <p class="font-Roboto_Condensed" >DRY FOOD</p>
+                      <img width="66" height="91" alt="img" src="./images/cat assets2/cat_dry-1.jpg">
+                      <a class="is-size-6 font-Roboto mt-5 pt-1" >Nutram </a>
+                      <a class="is-size-6 font-Roboto " > Schesir </a>
+                      <a class="is-size-6 font-Roboto " > Techni-Cal </a>
+                      <a class="is-size-6 font-Roboto mb-5 pb-2 " > Trovet</a>
                     </div>
+                              <!-- Card-2 -->
+                    <div class="w-22-card-resp card mb-4 pb-1 is-flex is-flex-direction-column is-align-items-center">
+                        <p class="font-Roboto_Condensed" >WET FOOD</p>
+                        <img class="pt-1" width="93" height="91" alt="img" src="./images/cat assets2/Mask Group 32.jpg">
+                        <a class="is-size-6 font-Roboto mt-4 " >Nutram </a>
+                        <a class="is-size-6 font-Roboto " > Schesir </a>
+                        <a class="is-size-6 font-Roboto " > Stuzzy </a>
+                        <a class="is-size-6 font-Roboto mb-5 pb-2 " > Trovet</a>
+                      </div> 
+                                 <!-- Card-3 -->
+                      <div class="w-22-card-resp card mb-4 pb-1 is-flex is-flex-direction-column is-align-items-center">
+                        <p class="font-Roboto_Condensed" >DIETARY<br> REQUIREMENTS</p>
+                        <img width="65" height="65" alt="img" src="./images/cat assets2/Group 251.jpg">
+                        <a class="is-size-6 font-Roboto mt-5 pt-1" >Elimination diets </a>
+                        <a class="is-size-6 font-Roboto " > Grain free diets </a>
+                        <a class="is-size-6 font-Roboto " > Hypoallergenic diets </a>
+                        <a class="is-size-6 font-Roboto  " > Special diets</a>
+                        <a class="is-size-6 font-Roboto mb-3 " >  Weight control diets</a>
+                      </div>
+                             <!-- Card-4 -->
+                      <div class="hidden-769 w-22-card-resp card mb-4 pb-1 is-flex is-flex-direction-column is-align-items-center">
+                        <p class="font-Roboto_Condensed" >CAT LITTER</p>
+                        <img width="62" height="104" alt="img" src="./images/cat assets2/cat_litter-2.jpg">
+                        <a class="is-size-6 font-Roboto mt-4 pb-1" >Cat’s Best  </a>
+                        <a class="is-size-6 font-Roboto " > Ever Clean </a>
+                        <a class="is-size-6 font-Roboto mb-5 pb-2 " > Pet’s Dream Paper Puret</a>
+                      </div>
+                                 <!-- Card-5 -->
+                      <div class="w-22-card-resp hidden-1024 card mb-4 pb-1 is-flex is-flex-direction-column is-align-items-center">
+                        <p class="font-Roboto_Condensed" >CAT TREATS</p>
+                        <img width="90" height="110" alt="img" src="./images/cat assets2/Multi_Purpose_Treat_Fish_cat_-1.jpg">
+                        <a class="is-size-6 font-Roboto mb-5 " >Trovet </a>
+                      </div>
                 </div>
-
-                <div
-                    class="hidden mt-6  pt-6 is-flex is-flex-direction-column width-20 is-justify-content-center width-8 is-align-items-center ">
-                    <a
-                        class="color-707070 has-text-weight-bold is-size-6 font-Roboto_Condensed mt-5 cursor-pointer">Lifestages</a>
-                    <a class="color-4DB6CE is-size-6 font-Roboto mt-2 cursor-pointer">Kitten</a>
-                    <a class="color-808080 is-size-6 font-Roboto_Condensed mt-2 cursor-pointer">Adult</a>
-                    <a class="color-808080 is-size-6 font-Roboto_Condensed mt-2 cursor-pointer">Senior</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Empty Div -->
-        <div class="width-100 height-190">
-
-        </div>
-
-        <!-- Cards -->
-        <!-- Card Head -->
-        <idv class=" width-100 is-flex is-justify-content-center ">
-            <div class="max-width-1600 w-resp-90 width-84 is-flex is-justify-content-end flex-center">
-                <div
-                    class=" width-78 m-t-20 c-h-resp-w-92 bg-color-EDF7FA border-AFE9F1 is-flex is-flex-direction-column is-align-items-center ">
-                    <div class="is-flex width-100 mt-5 mb-5">
-                        <button class="btn-1 ml-5 margin-l-8 font-Roboto_Condensed">Nutram</button>
-                        <button class="btn-2 ml-4 margin-l-11 font-Roboto_Condensed">Schesir</button>
-                        <button class="btn-3 ml-4 margin-l-11 font-Roboto_Condensed">Techni-Cal</button>
-                        <button class="btn-4 ml-4 margin-l-11 font-Roboto_Condensed">
-                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="times" role="img"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                                class="svg-inline--fa fa-times fa-w-10 fa-2x">
-                                <path fill="currentColor"
-                                    d="M207.6 256l107.72-107.72c6.23-6.23 6.23-16.34 0-22.58l-25.03-25.03c-6.23-6.23-16.34-6.23-22.58 0L160 208.4 52.28 100.68c-6.23-6.23-16.34-6.23-22.58 0L4.68 125.7c-6.23 6.23-6.23 16.34 0 22.58L112.4 256 4.68 363.72c-6.23 6.23-6.23 16.34 0 22.58l25.03 25.03c6.23 6.23 16.34 6.23 22.58 0L160 303.6l107.72 107.72c6.23 6.23 16.34 6.23 22.58 0l25.03-25.03c6.23-6.23 6.23-16.34 0-22.58L207.6 256z"
-                                    class=""></path>
-                            </svg>
-                        </button>
-                        <p class=" cursor-pointer mrg-top-0 mt-2 ml-3 color-746F6F font-Roboto_Condensed font-12">Clear filter</p>
-                    </div>
-                    <!-- Horizontal Line  -->
-                    <div class="width-95 border-black mb-4"></div>
-
-                    <!-- Cards Main Body -->
-                    <div class="width-95 is-flex is-flex-direction-column mb-5">
-
-
-
-
-                        <div class="width-100 is-relative">
-                            <img class="mt-5 m-t-0 pt-2 p-absolute p-absolute-resp-0" width="130px" height="177px" alt="img"
-                                src="./images/cat_dry-1-removebg-preview.png">
-                                 <!-- horizontal line -->
-                            <div class="h-l-resp is-hidden-tablet margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-                            <h1
-                                class="margin-l-155 m-l-0 has-text-weight-bold mt-3 font-Roboto_Condensed font-18 color-707070">
-                                Sound
-                                Kitten S1</h1>
-                            <p class="margin-l-155 m-l-0 font-Roboto is-size-6 mt-3  color-838383">S1 Nutram Sound Balanced
-                                Wellness®
-                                Natural Kitten Food is a Holistic, multi-beneficial and nutrient-rich recipe that
-                                improves your pet’s wellness from the inside-out</p>
-                            <a class="margin-l-155 m-l-0 color-1BB6EA font-Roboto is-size-6">read more</a>
-
-                            <!-- One -->
-                            <div class="f-d-column m-t-resp-198 margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        1.13kg</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £9.99</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-
-                            <!-- Second -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        2 x 1.13kg <span
-                                            class="color-F41D47 has-text-weight-bold is-size-6 font-Roboto_Condensed ml-3">Save
-                                            £4
-                                            <svg class="svg-card" aria-hidden="true" focusable="false" data-prefix="fal"
-                                                data-icon="tag" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512" class="svg-inline--fa fa-tag fa-w-16 fa-2x">
-                                                <path fill="currentColor"
-                                                    d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.745 18.745 49.137 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zm-22.627 45.255L271.196 475.314c-6.243 6.243-16.375 6.253-22.627 0L36.686 263.431A15.895 15.895 0 0 1 32 252.117V48c0-8.822 7.178-16 16-16h204.118c4.274 0 8.292 1.664 11.314 4.686l211.882 211.882c6.238 6.239 6.238 16.39 0 22.628zM144 124c11.028 0 20 8.972 20 20s-8.972 20-20 20-20-8.972-20-20 8.972-20 20-20m0-28c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
-                                                    class=""></path>
-                                            </svg>
-                                        </span></p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £15.98</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class=" margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-                            <!-- Third -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        5.4 kg</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £1.15</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-
-
-
-                        </div>
-                        <div class="card-imgs  is-flex flex-column ">
-
-                            <img class="" width="122px" height="88px" alt="img"
-                                src="./images/Mask_Group_43_2x-removebg-preview.png">
-                            <!-- Fourth -->
-                            <div class="f-d-column width-100 margin-l-35 m-l-0 is-flex  mt-2 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        24 x 156g cans <span
-                                            class="color-F41D47 has-text-weight-bold is-size-6 font-Roboto_Condensed ml-3">Save
-                                            £4
-                                            <svg class="svg-card" aria-hidden="true" focusable="false" data-prefix="fal"
-                                                data-icon="tag" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512" class="svg-inline--fa fa-tag fa-w-16 fa-2x">
-                                                <path fill="currentColor"
-                                                    d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.745 18.745 49.137 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zm-22.627 45.255L271.196 475.314c-6.243 6.243-16.375 6.253-22.627 0L36.686 263.431A15.895 15.895 0 0 1 32 252.117V48c0-8.822 7.178-16 16-16h204.118c4.274 0 8.292 1.664 11.314 4.686l211.882 211.882c6.238 6.239 6.238 16.39 0 22.628zM144 124c11.028 0 20 8.972 20 20s-8.972 20-20 20-20-8.972-20-20 8.972-20 20-20m0-28c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
-                                                    class=""></path>
-                                            </svg>
-                                        </span></p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £15.00</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Sound Kitten S1 End -->
-
-
-
-                    <!-- Horizontal Line  -->
-                    <div class="width-95 border-black mb-4 mt-4"></div>
-
-                    <!-- Cards Main Body -->
-                    <div class="width-95 is-flex mb-5 is-relative">
-
-                        
-
-                        <img class="mt-5  pt-2 p-absolute p-absolute-resp-1" width="119px" height="226px" alt="img"
-                            src="./images/Mask-Group-64_2x-removebg-preview.png">
-
-                            <div class="set-resp  is-hidden-tablet">
-                                <p class="h-l-resp-1 is-hidden-tablet margin-l-155 m-l-0 border-DDDDDD mt-4" ></p>
-                            </div>
-
-
-
-                        <div class="width-100 ">
-                            <h1
-                                class="margin-l-155 m-l-0 has-text-weight-bold mt-3 font-Roboto_Condensed font-18 color-707070">
-                                Schesir Dry
-                                Kitten Food</h1>
-                            <p class="margin-l-155 m-l-0 font-Roboto is-size-6 mt-3  color-838383">SCHESIR DRY LINE food is
-                                prepared with
-                                natural ingredients and the addition of vitamins and minerals to meet the nutritional
-                                demands of any breed of cat throughout the different phases of its life, helping it stay
-                                in good health.</p>
-
-
-                            <!-- One -->
-                            <div class="f-d-column m-t-resp-255 margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Kitten with Chicken - 400g</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £2.99</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-
-                            <!-- Second -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Kitten with Chicken - 1.5kg</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £9.99</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-                            <!-- Third -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Kitten with Chicken - 10kg</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £41.99</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-
-                    </div>
-                    <!-- Schesir Dry Kitten Food end -->
-
-                    <div class="width-95 border-black mb-4"></div>
-
-                    <div class="width-95 is-flex mb-5 is-relative">
-
-                        <img class="mt-5 pt-3 p-absolute p-absolute-resp-3" width="126px" height="129px" alt="img"
-                            src="./images/Mask_Group_44-removebg-preview.png">
-                        <img class="mt-6 pt-6 p-absolute-1 p-absolute-resp-2" width="124px" height="124px" alt="img"
-                            src="./images/Mask_Group_45_2x-removebg-preview.png">
-
-
-
-
-                        <div class="width-100 ">
-                            <h1
-                                class="margin-l-155 m-l-0 has-text-weight-bold mt-3 font-Roboto_Condensed font-18 color-707070">
-                                Schesir
-                                Kitten Tins With Jelly</h1>
-                            <p class="margin-l-155 m-l-0 font-Roboto is-size-6 mt-3  color-838383">Super-premium quality
-                                available in a
-                                range of flavours to satisfy your kitten: 100% natural ingredients, with no colourings
-                                or preservatives added, only tuna and chicken used fit for human consumption, steam
-                                cooked and hand-processed, prepared in jelly.</p>
-
-
-                            <!-- One -->
-                            <div class="f-d-column margin-l-155 m-t-resp-170 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Tuna with aloe 85g</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £1.15</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-
-                            <!-- Second -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <div class="is-fkex is-flex-direction-column">
-                                        <p
-                                            class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                            Tuna with aloe 14 x 85g </p>
-                                        <span
-                                            class="color-F41D47 has-text-weight-bold is-size-6 font-Roboto_Condensed ml-1">Save
-                                            £2.41
-                                            <svg class="svg-card" aria-hidden="true" focusable="false" data-prefix="fal"
-                                                data-icon="tag" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512" class="svg-inline--fa fa-tag fa-w-16 fa-2x">
-                                                <path fill="currentColor"
-                                                    d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.745 18.745 49.137 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zm-22.627 45.255L271.196 475.314c-6.243 6.243-16.375 6.253-22.627 0L36.686 263.431A15.895 15.895 0 0 1 32 252.117V48c0-8.822 7.178-16 16-16h204.118c4.274 0 8.292 1.664 11.314 4.686l211.882 211.882c6.238 6.239 6.238 16.39 0 22.628zM144 124c11.028 0 20 8.972 20 20s-8.972 20-20 20-20-8.972-20-20 8.972-20 20-20m0-28c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
-                                                    class=""></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £13.69</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-
-                            <!-- Third -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Tuna with aloe 140g</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £1.15</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-                            <!-- Fourth -->
-                            <div class="f-d-column margin-l-155 m-t-resp-170 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Chicken fillets with aloe 85g </p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £13.69</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-
-                            <!-- Fifth -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <div class="is-fkex is-flex-direction-column">
-                                        <p
-                                            class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                            Tuna with aloe 14 x 85g </p>
-                                        <span
-                                            class="color-F41D47 has-text-weight-bold is-size-6 font-Roboto_Condensed ml-1">Save
-                                            £2.41
-                                            <svg class="svg-card" aria-hidden="true" focusable="false" data-prefix="fal"
-                                                data-icon="tag" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 512 512" class="svg-inline--fa fa-tag fa-w-16 fa-2x">
-                                                <path fill="currentColor"
-                                                    d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.745 18.745 49.137 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zm-22.627 45.255L271.196 475.314c-6.243 6.243-16.375 6.253-22.627 0L36.686 263.431A15.895 15.895 0 0 1 32 252.117V48c0-8.822 7.178-16 16-16h204.118c4.274 0 8.292 1.664 11.314 4.686l211.882 211.882c6.238 6.239 6.238 16.39 0 22.628zM144 124c11.028 0 20 8.972 20 20s-8.972 20-20 20-20-8.972-20-20 8.972-20 20-20m0-28c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
-                                                    class=""></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £1.25</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-                            <!-- horizontal line -->
-                            <div class="margin-l-155 m-l-0 border-DDDDDD mt-4"></div>
-                            <!-- Six -->
-                            <div class="f-d-column margin-l-155 m-l-0 is-flex  mt-5 is-justify-content-space-between">
-                                <div class="w-resp-100 width-50 is-flex is-justify-content-space-between">
-                                    <p
-                                        class="color-746F6F font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        Chicken fillets with aloe 140g</p>
-                                    <h1
-                                        class="color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £14.88</h1>
-                                </div>
-                                <div class="w-resp-100 m-t-resp-10 is-flex is-justify-content-space-between width-44">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-                    <!-- Schesir Kitten Tins With Jelly End -->
-
-                </div>
-            </div>
-</idv>
-            <!-- Foter Cards -->
-
-
-
-            <div class="width-100 is-flex mt-4 is-justify-content-center">
-                <div class="width-85 width-resp-90 max-width-1600 is-flex is-justify-content-end flex-center">
-                    <div class="width-78 f-c-resp-w-92 is-flex is-flex-direction-column is-align-items-center mt-4">
-                        <p class="color-707070 font-18 font-Roboto_Condensed has-text-weight-bold">YOU MAY ALSO LIKE
-                            THESE…</p>
-                        <div class=" width-100 border-707070 pt-4 pb-4 mt-4 is-flex is-justify-content-space-evenly ">
-                            <div class="is-flex   is-align-items-center">
-                                <svg class="f-c-svg mr-2 f-c-svg-resp" aria-hidden="true" focusable="false" data-prefix="fal"
-                                    data-icon="less-than" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 320 512" class="svg-inline--fa fa-less-than fa-w-10 fa-2x">
-                                    <path fill="currentColor"
-                                        d="M0 261.83c0 3.02 1.7 5.78 4.4 7.14l289.73 146.18c3.95 1.98 8.76.37 10.73-3.58l14.29-28.62c1.97-3.95.37-8.75-3.58-10.73L83.13 256l232.44-116.22c3.95-1.97 5.55-6.78 3.58-10.73l-14.29-28.62c-1.97-3.95-6.78-5.56-10.73-3.58L4.42 241.77A7.985 7.985 0 0 0 0 248.92v12.91z"
-                                        class=""></path>
-                                </svg>
-                                <!-- main Card Footer -->
-                                <div class="border-D5D8D6">
-                                    <div class="is-flex is-justify-content-space-between">
-                                        <div class="is-flex is-flex-direction-column is-justify-content-space-between">
-                                            <p
-                                                class="pl-4 mt-3 color-838383 font-Roboto_Condensed has-text-weight-bold is-size-6">
-                                                Cat’s
-                                                Best <br> Original <br> Clumping <br> Litter</p>
-                                            <button class="btn-fc1 ml-4 font-Roboto_Condensed">5L (2.1kg)</button>
-                                        </div>
-                                        <img class="mr-3 mt-3" width="99" height="160" alt="img"
-                                            src="./images/Mask_Group_-2_2x-removebg-preview.png">
-                                    </div>
-                                    <h1
-                                        class="width-92 ml-4 mt-3 mb-2 color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £5.49</h1>
-                                    <div class="is-flex is-justify-content-space-between ml-1 mr-1 mb-1">
-                                        <div class="is-flex width-44">
-                                            <button class="btn-minus-f-c color-1BB6EA font-Roboto_Condensed"> -
-                                            </button>
-                                            <button class="btn-num-f-c font-Roboto_Condensed"> 1 </button>
-                                            <button class="btn-minus-f-c color-1BB6EA font-Roboto_Condensed"> +
-                                            </button>
-                                        </div>
-                                        <button
-                                            class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                            to basket</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Footer card one End -->
-                            <div class="border-D5D8D6 hidden" ">
-                                <div class="is-flex is-justify-content-space-between">
-                                    <div class="is-flex is-flex-direction-column is-justify-content-space-between">
-                                        <p
-                                            class="pl-4 4 mt-3 color-838383 font-Roboto_Condensed has-text-weight-bold is-size-6">
-                                            Cat’s
-                                            Cat’s Best <br> Sensitive <br> Litter</p>
-                                        <button class="btn-fc1 ml-4 mt-58px font-Roboto_Condensed">8L (2.9kg)</button>
-                                    </div>
-                                    <img class=" mb-4 mt-3" width="116" height="136" alt="img"
-                                        src="./images/cat_s_best_sensitive_litter_2x-removebg-preview.png">
-                                </div>
-                                <h1
-                                    class="ml-4 mt-3 mb-2  color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                    £9.99</h1>
-                                <div class="is-flex is-justify-content-space-between ml-1 mr-1 mb-1">
-                                    <div class="is-flex width-48">
-                                        <button class="btn-minus-f-c color-1BB6EA font-Roboto_Condensed"> - </button>
-                                        <button class="btn-num-f-c font-Roboto_Condensed"> 1 </button>
-                                        <button class="btn-minus-f-c color-1BB6EA font-Roboto_Condensed"> + </button>
-                                    </div>
-                                    <button
-                                        class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                        to basket</button>
-                                </div>
-                            </div>
-                            <!-- Footer Card two End -->
-                            <div class="is-flex   is-align-items-center display-none display-block">
-
-                                <!-- main Card Footer -->
-                                <div class="border-D5D8D6  ">
-                                    <div class="is-flex is-justify-content-space-between">
-                                        <div class="is-flex is-flex-direction-column is-justify-content-space-between">
-                                            <p
-                                                class="pl-3 4 mt-3 color-838383 font-Roboto_Condensed has-text-weight-bold is-size-6">
-                                                Cat’s
-                                                Best <br> Original <br> Clumping <br> Litter</p>
-                                            <button class="btn-fc3 ml-4 font-Roboto_Condensed">6x5L (2.1kg)</button>
-                                        </div>
-                                        <img class="mr-3 mt-3" width="99" height="160" alt="img"
-                                            src="./images/Mask_Group_-2_2x-removebg-preview.png">
-                                    </div>
-                                    <h1
-                                        class="ml-4 mt-3 mb-2  color-746F6F has-text-weight-bold font-Roboto_Condensed is-size-6 is-flex is-align-items-center">
-                                        £26.94 <span
-                                            class="color-F41D47 has-text-weight-bold is-size-6 font-Roboto_Condensed ml-3">Save
-                                            £6</span></h1>
-
-                                    <div class="is-flex is-justify-content-space-between ml-1 mr-1 mb-1">
-                                        <div class="is-flex width-48">
-                                            <button class="btn-minus-f-c color-1BB6EA font-Roboto_Condensed"> -
-                                            </button>
-                                            <button class="btn-num-f-c font-Roboto_Condensed"> 1 </button>
-                                            <button class="btn-minus-f-c color-1BB6EA font-Roboto_Condensed"> +
-                                            </button>
-                                        </div>
-                                        <button
-                                            class="bg-90CFDE btn-basket font-Roboto_Condensed font-18 has-text-weight-bold has-text-white ">Add
-                                            to basket</button>
-                                    </div>
-                                </div>
-                                <svg class="f-c-svg1 ml-2" aria-hidden="true" focusable="false" data-prefix="fal"
-                                    data-icon="less-than" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 320 512" class="svg-inline--fa fa-less-than fa-w-10 fa-2x">
-                                    <path fill="currentColor"
-                                        d="M0 261.83c0 3.02 1.7 5.78 4.4 7.14l289.73 146.18c3.95 1.98 8.76.37 10.73-3.58l14.29-28.62c1.97-3.95.37-8.75-3.58-10.73L83.13 256l232.44-116.22c3.95-1.97 5.55-6.78 3.58-10.73l-14.29-28.62c-1.97-3.95-6.78-5.56-10.73-3.58L4.42 241.77A7.985 7.985 0 0 0 0 248.92v12.91z"
-                                        class=""></path>
-                                </svg>
-                            </div>
-                            <!-- footer Card Three End -->
-                        </div>
-                    </div>
                 </div>
             </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-            <!-- Footer -->
-            <div class="bg-footer bg-footer-resp width-100    is-justify-content-center is-flex is-align-items-end">
-                <div class="footer  p-0 width-100 is-flex is-justify-content-center ">
-                    <div class="set-w-resp width-92 m-w-1600 mt-5 mb-5 is-flex is-justify-content-space-between">
-                        <div class="is-flex w-full-resp-95  width-30 is-justify-content-space-between">
-                            <div class="is-flex is-flex-direction-column is-justify-content-space-evenly">
-                                <a class="has-text-white has-text-weight-bold">Customer Service</a>
-                                <a class="has-text-grey-lighter font-14">Contact Us</a>
-                                <a class="has-text-grey-lighter font-14">My Account</a>
-                                <a class="has-text-grey-lighter font-14">Delivery</a>
-                                <a class="has-text-grey-lighter font-14">Returns</a>
-                                <a class="has-text-grey-lighter font-14">Breeders</a>
-                            </div>
-                            <div class="pb-5 is-flex is-flex-direction-column is-justify-content-space-evenly">
-                                <a class="has-text-white has-text-weight-bold">About Us</a>
-                                <a class="has-text-grey-lighter font-14">About Uss</a>
-                                <a class="has-text-grey-lighter font-14">Privacy</a>
-                                <a class="has-text-grey-lighter font-14">Terms &</a>
-                                <a class="has-text-grey-lighter font-14">Conditions</a>
-                            </div>
+               <!-- Footer -->
+        <div class="bg-footer bg-footer-resp width-100    is-justify-content-center is-flex is-align-items-end">
+            <div class="footer  p-0 width-100 is-flex is-justify-content-center ">
+                <div class="set-w-resp width-92 m-w-1600 mt-5 mb-5 is-flex is-justify-content-space-between">
+                    <div class="is-flex w-full-resp-95  width-30 is-justify-content-space-between">
+                        <div class="is-flex is-flex-direction-column is-justify-content-space-evenly">
+                            <a class="has-text-white has-text-weight-bold">Customer Service</a>
+                            <a class="has-text-grey-lighter font-14">Contact Us</a>
+                            <a class="has-text-grey-lighter font-14">My Account</a>
+                            <a class="has-text-grey-lighter font-14">Delivery</a>
+                            <a class="has-text-grey-lighter font-14">Returns</a>
+                            <a class="has-text-grey-lighter font-14">Breeders</a>
                         </div>
-                        <div
-                            class="padding-t-6 w-full-resp is-flex-mobile is-flex-direction-column is-align-items-center">
-                            <a class="ml-3 font-14 has-text-white-ter has-text-weight-bold">Join Our Mailing List</a>
-                            <div
-                                class=" placeholder w-full-resp control set navbar-item is-flex is-flex-direction-column ">
-                                <input
-                                    class="column is-full-mobile pl-3 width-268 height-36 mt-3 font-Arial input has-text-danger "
-                                    type="text" placeholder="Your Name">
-                                <input
-                                    class="pl-4 column is-full-mobile width-268 height-36 mt-3 font-Arial input has-text-danger "
-                                    type="email" placeholder="Your email">
-                                <input
-                                    class="text-align pl-3 width-268 column is-full-mobile  bg-yellow has-text-black has-text-weight-bold height-36 mt-4 font-Arial input "
-                                    type="submit" placeholder="Submit">
+                        <div class="pb-5 is-flex is-flex-direction-column is-justify-content-space-evenly">
+                            <a class="has-text-white has-text-weight-bold">About Us</a>
+                            <a class="has-text-grey-lighter font-14">About Uss</a>
+                            <a class="has-text-grey-lighter font-14">Privacy</a>
+                            <a class="has-text-grey-lighter font-14">Terms &</a>
+                            <a class="has-text-grey-lighter font-14">Conditions</a>
+                        </div>
+                    </div>
+                    <div class="padding-t-6 w-full-resp is-flex-mobile is-flex-direction-column is-align-items-center">
+                        <a class="ml-3 font-14 has-text-white-ter has-text-weight-bold">Join Our Mailing List</a>
+                        <div class=" placeholder w-full-resp control set navbar-item is-flex is-flex-direction-column ">
+                            <input class="column is-full-mobile pl-3 width-268 height-36 mt-3 font-Arial input has-text-danger " type="text"
+                                placeholder="Your Name">
+                            <input class="pl-4 column is-full-mobile width-268 height-36 mt-3 font-Arial input has-text-danger " type="email"
+                                placeholder="Your email">
+                            <input
+                                class="text-align pl-3 width-268 column is-full-mobile  bg-yellow has-text-black has-text-weight-bold height-36 mt-4 font-Arial input "
+                                type="submit" placeholder="Submit">
 
-                            </div>
                         </div>
-                        <div class="w-full-resp-95 is-flex-mobile">
-                            <img class="pt-5" width="103px" height="55px" alt="img"
-                                src="./images/cat assets2/Credit_Card_Safe_grey@2x.jpg">
-                        </div>
+                    </div>
+                    <div class="w-full-resp-95 is-flex-mobile">
+                       <img class="pt-5" width="103px" height="55px" alt="img" src="./images/cat assets2/Credit_Card_Safe_grey@2x.jpg" >
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
