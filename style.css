@@ -49,9 +49,70 @@ height-155 {
     height: 155px;
 }
 
+
 .width-573 {
     width: 573px;
 }
+
+
+
+
+              /*Touch DropDown Start*/
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.color-black{
+    color: black;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-c {
+  display: none;
+  position: absolute;
+  background-color: #052962;
+
+      margin-left: -55px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-c a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+
+
+ /*Touch DropDown End*/
+
+
+
+
+
+
+
+
 
 .set input::placeholder {
     color: #F25705;
