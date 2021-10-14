@@ -17,6 +17,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
+
+<!-- 
+         <link href="~bulma-carousel/dist/css/bulma-carousel.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -55,7 +60,8 @@
                     <!-- Touch Drop Down -->
                     <script>
 
-
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
 function myFunction(event) {
 	event.stopPropagation();
   document.getElementById("myDropdown").classList.toggle("show");
@@ -265,20 +271,14 @@ window.onclick = function(event) {
 
         <div class="is-relative is-full is-flex is-justify-content-center is-align-items-center bg-yellow">
                <!-- Slider Buttons -->
-            <div class="slider is-flex is-justify-content-center is-align-items-center">
-                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="greater-than" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-greater-than fa-w-10 fa-3x"><path fill="currentColor" d="M311.16 218.53L37.47 81.69c-7.9-3.95-17.52-.75-21.47 7.16L1.69 117.48c-3.95 7.9-.75 17.51 7.16 21.46L242.96 256 8.85 373.06c-7.9 3.95-11.11 13.56-7.16 21.46L16 423.15c3.95 7.9 13.56 11.11 21.47 7.16l273.68-136.84c5.42-2.71 8.84-8.25 8.84-14.31v-46.31c.01-6.07-3.41-11.61-8.83-14.32z" class=""></path></svg>
-            </div>
-            <div class="slider-1 is-flex is-justify-content-center is-align-items-center">
-                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="less-than" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-less-than fa-w-10 fa-3x"><path fill="currentColor" d="M311.15 373.06L77.04 256l234.11-117.06c7.9-3.95 11.11-13.56 7.16-21.46L304 88.85c-3.95-7.9-13.56-11.11-21.47-7.16L8.84 218.53A16 16 0 0 0 0 232.85v46.31c0 6.06 3.42 11.6 8.84 14.31l273.68 136.84c7.9 3.95 17.52.75 21.47-7.16l14.31-28.63c3.96-7.9.75-17.51-7.15-21.46z" class=""></path></svg>
-               
-            </div>
+            
            
-            <div class="max-width border-radius-8 my-5 is-flex is-justify-content-center bg-orange
+            <div class="max-width overflow-x-h border-radius-8 my-5 is-flex is-justify-content-center bg-orange
              is-align-items-center sd-card width-90 w-95-resp">
-                <div class=" is-flex is-justify-content-space-evenly 
+                <div class=" carousel is-flex is-justify-content-space-evenly 
                 is-align-content-center sd-card width-90 width-95-resp">
-                    <div class="is-relative my-4 has-background-white width-24
-                         height-271 img-border-double is-flex width-32-resp
+                    <div class="item-1 is-relative my-4 has-background-white width-75
+                         height-271 img-border-double is-flex 
                          is-flex-direction-column is-align-items-center">
                         <img class="" alt="img" width="139px" height="239px"
                             src="./images/cat assets2/arden-grangspecial-offer@2x.jpg">
@@ -298,8 +298,8 @@ window.onclick = function(event) {
                         </div>
                     </div>
 
-                    <div class="disply-none-resp is-relative my-4 has-background-white width-24
-                              img-border is-flex height-267 width-32-resp
+                    <div class="item-2  is-relative my-4 has-background-white width-75
+                              img-border is-flex height-267 
                                is-flex-direction-column is-align-items-center">
                         <img class="img-set" alt="img" width="100%" src="./images/ss1.PNG">
                         <!-- <div class="border-1 width-100 pl-3 pt-1 font-14 text-gray height-58">
@@ -318,8 +318,8 @@ window.onclick = function(event) {
                         </div> -->
                     </div>
 
-                    <div class="disply-none-resp is-relative my-4 has-background-white width-24
-                    height-271 img-border-double is-flex  width-32-resp
+                    <div class="item-3 is-relative my-4 has-background-white width-75
+                    height-271 img-border-double is-flex  
                     is-flex-direction-column is-align-items-center">
                         <img class="img1-set" alt="img" src="./images/cat assets2/Techni-cal-product@2x.jpg">
                         <div class="font-Roboto_Condensed border-1 width-100 pl-3 p-top-3 p-l-4-resp
@@ -338,7 +338,87 @@ window.onclick = function(event) {
                         </div>
                     </div>
 
-                    <div class="is-hidden-mobile is-block-tablet is-relative my-4 has-background-white width-24
+                    <div class="item-4  is-relative my-4 has-background-white width-75
+               height-271 img-border-double is-flex 
+               is-flex-direction-column is-align-items-center">
+                        <img alt="img" class="img2-set" src="./images/ss2.PNG">
+                        <img class="img3-set" alt="img" width="139px" height="239px" src="./images/ss3.PNG">
+                        <div class="font-Roboto_Condensed  border-1 width-100 pl-3 p-top-3 p-l-4-resp
+               font-14 text-gray height-46 is-flex is-align-items-center ">
+                            The latest product from Schesir
+                            <svg class="svg3-setting svg3-resp " aria-hidden="true" focusable="false" data-prefix="far"
+                                data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-right fa-w-14 fa-3x">
+                                <path fill="currentColor"
+                                    d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"
+                                    class=""></path>
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="item-1 is-relative my-4 has-background-white width-75
+                         height-271 img-border-double is-flex 
+                         is-flex-direction-column is-align-items-center">
+                        <img class="" alt="img" width="139px" height="239px"
+                            src="./images/cat assets2/arden-grangspecial-offer@2x.jpg">
+                        <div class="font-Roboto_Condensed border-1 width-100 p-l-4-resp pl-3 p-top-3
+                         font-14 text-gray height-46 line-height-19">
+                            Puppy / Junior Large Breed<br> with fresh chicken & rice
+                            <svg class="svg3-setting p-l-8-resp " aria-hidden="true" focusable="false" data-prefix="far"
+                                data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-right fa-w-14 fa-3x">
+                                <path fill="currentColor"
+                                    d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"
+                                    class=""></path>
+                            </svg>
+                        </div>
+                        <div class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
+                            Save &#163 20
+                        </div>
+                    </div>
+
+                    <div class="item-2 is-relative my-4 has-background-white width-75
+                              img-border is-flex height-267 
+                               is-flex-direction-column is-align-items-center">
+                        <img class="img-set" alt="img" width="100%" src="./images/ss1.PNG">
+                        <!-- <div class="border-1 width-100 pl-3 pt-1 font-14 text-gray height-58">
+                            Puppy / Junior Large Breed<br> with fresh chicken & rice
+                            <svg class="svg3-setting " aria-hidden="true" focusable="false" data-prefix="far"
+                                data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-right fa-w-14 fa-3x">
+                                <path fill="currentColor"
+                                    d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"
+                                    class=""></path>
+                            </svg>
+                        </div> -->
+                        <div
+                            class="font-Roboto_Condensed is-size-6 save-20 has-text-white is-flex is-justify-content-center is-align-items-center">
+                            Save &#163 20
+                        </div>
+                    </div>
+
+                    <div class="item-3 is-relative my-4 has-background-white width-75
+                    height-271 img-border-double is-flex  
+                    is-flex-direction-column is-align-items-center">
+                        <img class="img1-set" alt="img" src="./images/cat assets2/Techni-cal-product@2x.jpg">
+                        <div class="font-Roboto_Condensed border-1 width-100 pl-3 p-top-3 p-l-4-resp
+                    font-14 text-gray height-46 line-height-19">
+                            Pure Nature Cat<br> Indoor & Sterilised
+                            <svg class="svg3-setting " aria-hidden="true" focusable="false" data-prefix="far"
+                                data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-right fa-w-14 fa-3x">
+                                <path fill="currentColor"
+                                    d="M218.101 38.101L198.302 57.9c-4.686 4.686-4.686 12.284 0 16.971L353.432 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h341.432l-155.13 155.13c-4.686 4.686-4.686 12.284 0 16.971l19.799 19.799c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L235.071 38.101c-4.686-4.687-12.284-4.687-16.97 0z"
+                                    class=""></path>
+                            </svg>
+                        </div>
+                        <div class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
+                            Save &#163 20
+                        </div>
+                    </div>
+
+                    <div class="item-4   is-relative my-4 has-background-white width-75
                height-271 img-border-double is-flex 
                is-flex-direction-column is-align-items-center">
                         <img alt="img" class="img2-set" src="./images/ss2.PNG">
@@ -359,7 +439,39 @@ window.onclick = function(event) {
 
                 </div>
             </div>
-        </div>     
+        </div> 
+
+
+     <!-- Main C -->
+
+               
+
+				
+			
+		<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+      <!--   <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script> -->
+    <script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4
+		});
+		let options = {initialSlide:0,slidesToShow:4,breakpoints:[{ changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, { changePoint: 640, slidesToShow: 2, slidesToScroll: 1 }, { changePoint: 768, slidesToShow: 3, slidesToScroll: 1 },
+		{ changePoint: 1024, slidesToShow: 4, slidesToScroll: 1 } ]}
+        // Initialize all elements with carousel class.
+const carousels = bulmaCarousel.attach('.carousel', options);
+
+// To access to bulmaCarousel instance of an element
+const element = document.querySelector('#my-element');
+if (element && element.bulmaCarousel) {
+	// bulmaCarousel instance is available as element.bulmaCarousel
+}
+		</script>
+
+
+
+
+
+
                    <!-- CAT & DOG IMG -->
         <div class="width-100 mt-5 is-flex is-justify-content-center">
             <div class="m-w-1600 w-f-resp width-92 width-resp is-flex is-justify-content-space-between column-resp ">

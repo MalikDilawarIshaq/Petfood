@@ -177,6 +177,13 @@ height-155 {
 
 }
 
+.width-60{
+    width: 60%;
+}
+.overflow-x-h {
+    overflow-x: hidden;
+}
+
 .font-14 {
     font-size: 14px;
 }

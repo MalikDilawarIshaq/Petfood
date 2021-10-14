@@ -22,6 +22,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
+         <!-- <link href="~bulma-carousel/dist/css/bulma-carousel.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="kitten.css">
     <title>Document</title>
 </head>
@@ -829,18 +832,18 @@ window.onclick = function(event) {
 
             <div class="width-100 is-flex mt-4 is-justify-content-center">
                 <div class="width-85 width-resp-90 max-width-1600 is-flex is-justify-content-end flex-center">
-                    <div class="width-78 f-c-resp-w-92 is-flex is-flex-direction-column is-align-items-center mt-4">
+                    <div class="width-78 f-c-resp-w-92 is-flex is-flex-direction-column overflow-x-h is-align-items-center mt-4">
                         <p class="color-707070 font-18 font-Roboto_Condensed has-text-weight-bold">YOU MAY ALSO LIKE
                             THESE…</p>
-                        <div class=" width-100 border-707070 pt-4 pb-4 mt-4 is-flex is-justify-content-space-evenly ">
-                            <div class="is-flex   is-align-items-center">
-                                <svg class="f-c-svg mr-2 f-c-svg-resp" aria-hidden="true" focusable="false" data-prefix="fal"
+                        <div class=" carousel width-100 border-707070 pt-4 pb-4 mt-4 is-flex is-justify-content-space-evenly ">
+                            <div class="width-60 item-1 ml-5 is-flex   is-align-items-center">
+                                <!-- <svg class="f-c-svg mr-2 f-c-svg-resp" aria-hidden="true" focusable="false" data-prefix="fal"
                                     data-icon="less-than" role="img" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 320 512" class="svg-inline--fa fa-less-than fa-w-10 fa-2x">
                                     <path fill="currentColor"
                                         d="M0 261.83c0 3.02 1.7 5.78 4.4 7.14l289.73 146.18c3.95 1.98 8.76.37 10.73-3.58l14.29-28.62c1.97-3.95.37-8.75-3.58-10.73L83.13 256l232.44-116.22c3.95-1.97 5.55-6.78 3.58-10.73l-14.29-28.62c-1.97-3.95-6.78-5.56-10.73-3.58L4.42 241.77A7.985 7.985 0 0 0 0 248.92v12.91z"
                                         class=""></path>
-                                </svg>
+                                </svg> -->
                                 <!-- main Card Footer -->
                                 <div class="border-D5D8D6">
                                     <div class="is-flex is-justify-content-space-between">
@@ -872,7 +875,7 @@ window.onclick = function(event) {
                                 </div>
                             </div>
                             <!-- Footer card one End -->
-                            <div class="border-D5D8D6 hidden" ">
+                            <div class="width-60 item-2 ml-5 border-D5D8D6 " ">
                                 <div class="is-flex is-justify-content-space-between">
                                     <div class="is-flex is-flex-direction-column is-justify-content-space-between">
                                         <p
@@ -899,7 +902,7 @@ window.onclick = function(event) {
                                 </div>
                             </div>
                             <!-- Footer Card two End -->
-                            <div class="is-flex   is-align-items-center display-none display-block">
+                            <div class="width-60 item-3 ml-5 is-flex   is-align-items-center ">
 
                                 <!-- main Card Footer -->
                                 <div class="border-D5D8D6  ">
@@ -942,12 +945,36 @@ window.onclick = function(event) {
                                 </svg>
                             </div>
                             <!-- footer Card Three End -->
+                             
+                             
+
+                           
                         </div>
                     </div>
                 </div>
             </div>
 
+    
+        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+      <!--   <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script> -->
+    <script>
+        bulmaCarousel.attach('#carousel-demo', {
+            slidesToScroll: 1,
+            slidesToShow: 4
+        });
+        let options = {initialSlide:0,slidesToShow:4,breakpoints:[{ changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, { changePoint: 640, slidesToShow: 2, slidesToScroll: 1 }, { changePoint: 768, slidesToShow: 2, slidesToScroll: 1 },
+        { changePoint: 1024, slidesToShow: 2, slidesToScroll: 1 }, 
+        { changePoint: 1280, slidesToShow: 2, slidesToScroll: 1 },
+        { changePoint: 1440, slidesToShow: 2, slidesToScroll: 1 }]}
+        // Initialize all elements with carousel class.
+const carousels = bulmaCarousel.attach('.carousel', options);
 
+// To access to bulmaCarousel instance of an element
+const element = document.querySelector('#my-element');
+if (element && element.bulmaCarousel) {
+    // bulmaCarousel instance is available as element.bulmaCarousel
+}
+        </script>
 
 
 
