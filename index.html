@@ -18,10 +18,10 @@
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
 
-<!-- 
+    <!-- 
          <link href="~bulma-carousel/dist/css/bulma-carousel.min.css" rel="stylesheet"> -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -33,13 +33,13 @@
             <nav class="navbar w-100-resp  pt-1" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand ">
                     <a class="logo border ">
-                        <img src=""  alt="logo">
+                        <img src="" alt="logo">
                     </a>
                     <a class="navbar-item font-14 font-Roboto border-right mt-4  is-hidden-desktop">
                         My account
                         <svg class="svg1-setting" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                            focusable="false" data-prefix="fas" data-icon="user"
-                            class="svg-inline--fa fa-user fa-w-14" role="img" viewBox="0 0 448 512">
+                            focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user fa-w-14"
+                            role="img" viewBox="0 0 448 512">
                             <path fill="currentColor"
                                 d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z" />
                         </svg>
@@ -60,50 +60,52 @@
                     <!-- Touch Drop Down -->
                     <script>
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction(event) {
-	event.stopPropagation();
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+                        /* When the user clicks on the button, 
+                        toggle between hiding and showing the dropdown content */
+                        function myFunction(event) {
+                            event.stopPropagation();
+                            document.getElementById("myDropdown").classList.toggle("show");
+                        }
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-c");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function (event) {
+                            if (!event.target.matches('.dropbtn')) {
+                                var dropdowns = document.getElementsByClassName("dropdown-c");
+                                var i;
+                                for (i = 0; i < dropdowns.length; i++) {
+                                    var openDropdown = dropdowns[i];
+                                    if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                    }
+                                }
+                            }
+                        }
+                    </script>
 
-                    
-        <div class=" is-hidden-tablet dropdown">
-            <button onclick="myFunction(event)" class="dropbtn is-flex is-align-items-center">
-  	          <svg width="19px" class=" color-black open_icon" xmlns="http:// www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><path d="M4 7v2h24V7zm0 8v2h24v-2zm0 8v2h24v-2z"></path>
-  	          </svg>
-            </button>
-            <div id="myDropdown" class="dropdown-c">
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="#">DOG</a>
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="cat.html">CAT</a>
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="#">BIRD AND WILD BIRD</a>
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="#">SMALL ANIMAL</a>
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="#">ARDEN GRANGE</a>
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="#">BRANDS</a>
-             <a class="has-text-white font-14 font-Roboto_Condensed" href="#">SPECIAL OFFERS</a>
-            </div>
-        </div>
-                        
-                   
+
+                    <div class=" is-hidden-tablet dropdown">
+                        <button onclick="myFunction(event)" class="dropbtn is-flex is-align-items-center">
+                            <svg width="19px" class=" color-black open_icon" xmlns="http:// www.w3.org/2000/svg"
+                                viewBox="0 0 32 32" fill="currentColor">
+                                <path d="M4 7v2h24V7zm0 8v2h24v-2zm0 8v2h24v-2z"></path>
+                            </svg>
+                        </button>
+                        <div id="myDropdown" class="dropdown-c">
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="#">DOG</a>
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="cat.html">CAT</a>
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="#">BIRD AND WILD BIRD</a>
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="#">SMALL ANIMAL</a>
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="#">ARDEN GRANGE</a>
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="#">BRANDS</a>
+                            <a class="has-text-white font-14 font-Roboto_Condensed" href="#">SPECIAL OFFERS</a>
+                        </div>
+                    </div>
+
+
                 </div>
 
 
-                <div  class=" margin-t-62 margin-b-60 navbar-menu">
+                <div class=" margin-t-62 margin-b-60 navbar-menu">
 
                     <div class="navbar-start is-flex is-align-items-center">
                         <div class=" control set navbar-item ">
@@ -158,7 +160,7 @@ window.onclick = function(event) {
 
         <div class=" is-full background-blue-dark is-flex is-justify-content-center
             is-align-items-center height-41 h-73-resp">
-           
+
             <div class=" is-flex m-w-1600  is-justify-content-space-between 
                    content-c-resp height-41 is-align-items-center   width-90">
                 <div class="is-hidden-tablet control set set-resp  ">
@@ -167,8 +169,8 @@ window.onclick = function(event) {
 
 
                     <svg class="svg-setting-resp" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                        focusable="false" data-prefix="fas" data-icon="search"
-                        class="svg-inline--fa fa-search fa-w-16" role="img" viewBox="0 0 512 512">
+                        focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16"
+                        role="img" viewBox="0 0 512 512">
                         <path fill="currentColor"
                             d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
                     </svg>
@@ -178,9 +180,10 @@ window.onclick = function(event) {
                     DOG
                 </a>
                 <!-- Drop Down -->
-                <div class="is-hidden-mobile is-block-tablet dropdown  is-hoverable" >
+                <div class="is-hidden-mobile is-block-tablet dropdown  is-hoverable">
                     <div class="dropdown-trigger is-flex">
-                        <button class="btn-setting" aria-haspopup="true" aria-controls="dropdown-menu4"  onclick="window.location.href = 'cat.html'">
+                        <button class="btn-setting" aria-haspopup="true" aria-controls="dropdown-menu4"
+                            onclick="window.location.href = 'cat.html'">
                             CAT </button>
                     </div>
                     <div class="dropdown-menu" id="dropdown-menu4" role="menu">
@@ -256,7 +259,7 @@ window.onclick = function(event) {
 
 
         <div class="is-full mt-6  bg-cat-img">
-            
+
         </div>
 
 
@@ -270,9 +273,9 @@ window.onclick = function(event) {
 
 
         <div class="is-relative is-full is-flex is-justify-content-center is-align-items-center bg-yellow">
-               <!-- Slider Buttons -->
-            
-           
+            <!-- Slider Buttons -->
+
+
             <div class="max-width overflow-x-h border-radius-8 my-5 is-flex is-justify-content-center bg-orange
              is-align-items-center sd-card width-90 w-95-resp">
                 <div class=" carousel is-flex is-justify-content-space-evenly 
@@ -293,7 +296,8 @@ window.onclick = function(event) {
                                     class=""></path>
                             </svg>
                         </div>
-                        <div class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
+                        <div
+                            class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
                             Save &#163 20
                         </div>
                     </div>
@@ -333,7 +337,8 @@ window.onclick = function(event) {
                                     class=""></path>
                             </svg>
                         </div>
-                        <div class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
+                        <div
+                            class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
                             Save &#163 20
                         </div>
                     </div>
@@ -373,7 +378,8 @@ window.onclick = function(event) {
                                     class=""></path>
                             </svg>
                         </div>
-                        <div class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
+                        <div
+                            class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
                             Save &#163 20
                         </div>
                     </div>
@@ -413,7 +419,8 @@ window.onclick = function(event) {
                                     class=""></path>
                             </svg>
                         </div>
-                        <div class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
+                        <div
+                            class="font-Roboto_Condensed  save-20  is-flex is-justify-content-center is-align-items-center">
                             Save &#163 20
                         </div>
                     </div>
@@ -439,45 +446,49 @@ window.onclick = function(event) {
 
                 </div>
             </div>
-        </div> 
+        </div>
 
 
-     <!-- Main C -->
-
-               
-
-				
-			
-		<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
-      <!--   <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script> -->
-    <script>
-		bulmaCarousel.attach('#carousel-demo', {
-			slidesToScroll: 1,
-			slidesToShow: 4
-		});
-		let options = {initialSlide:0,slidesToShow:4,breakpoints:[{ changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, { changePoint: 640, slidesToShow: 2, slidesToScroll: 1 }, { changePoint: 768, slidesToShow: 3, slidesToScroll: 1 },
-		{ changePoint: 1024, slidesToShow: 4, slidesToScroll: 1 } ]}
-        // Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach('.carousel', options);
-
-// To access to bulmaCarousel instance of an element
-const element = document.querySelector('#my-element');
-if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
-}
-		</script>
+        <!-- Main C -->
 
 
 
 
 
+        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+        <!--   <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script> -->
+        <script>
+            bulmaCarousel.attach('#carousel-demo', {
+                slidesToScroll: 1,
+                slidesToShow: 4
+            });
+            let options = {
+                pagination: false,
+                initialSlide: 0, slidesToShow: 4, breakpoints: [{ changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, { changePoint: 640, slidesToShow: 2, slidesToScroll: 1 }, { changePoint: 768, slidesToShow: 3, slidesToScroll: 1 },
+                { changePoint: 1024, slidesToShow: 4, slidesToScroll: 1 }]
+            }
+            // Initialize all elements with carousel class.
+            const carousels = bulmaCarousel.attach('.carousel', options);
 
-                   <!-- CAT & DOG IMG -->
+            // To access to bulmaCarousel instance of an element
+            const element = document.querySelector('#my-element');
+            if (element && element.bulmaCarousel) {
+                // bulmaCarousel instance is available as element.bulmaCarousel
+            }
+        </script>
+
+
+
+
+
+
+        <!-- CAT & DOG IMG -->
         <div class="width-100 mt-5 is-flex is-justify-content-center">
             <div class="m-w-1600 w-f-resp width-92 width-resp is-flex is-justify-content-space-between column-resp ">
                 <div class="bg-img w-f-resp  is-flex is-flex-direction-column  is-justify-content-space-between ">
                     <p class="font-18 font-Abril has-text-white pt-5 ml-1 pl-4 is-uppercase">We love dogs</p>
-                    <div class=" content-end-resp  pb-4 pl-4 ml-1  is-flex is-justify-content-space-between is-align-items-end ">
+                    <div
+                        class=" content-end-resp  pb-4 pl-4 ml-1  is-flex is-justify-content-space-between is-align-items-end ">
                         <button
                             class=" btn1-setting is-uppercase font-18 has-text-white font-Roboto_Condensed bg-light-red">
                             Find out more
@@ -502,7 +513,8 @@ if (element && element.bulmaCarousel) {
                 <div
                     class="bg1-img w-f-resp1  is-flex is-flex-direction-column border-bottom-radius  is-justify-content-space-between ">
                     <p class="font-18 font-Abril has-text-white pt-5 ml-1 pl-4 is-uppercase">& cats</p>
-                    <div class=" pb-4 pl-4 ml-1  is-flex is-flex-direction-row-reverse is-justify-content-space-between is-align-items-end ">
+                    <div
+                        class=" pb-4 pl-4 ml-1  is-flex is-flex-direction-row-reverse is-justify-content-space-between is-align-items-end ">
                         <button
                             class="border-r-resp mr-4 btn2-setting is-uppercase font-18 has-text-white font-Roboto_Condensed bg-light-red">
                             Find out more
@@ -575,10 +587,12 @@ if (element && element.bulmaCarousel) {
                     <div class="padding-t-6 w-full-resp is-flex-mobile is-flex-direction-column is-align-items-center">
                         <a class="ml-3 font-14 has-text-white-ter has-text-weight-bold">Join Our Mailing List</a>
                         <div class=" placeholder w-full-resp control set navbar-item is-flex is-flex-direction-column ">
-                            <input class="column is-full-mobile pl-3 width-268 height-36 mt-3 font-Arial input has-text-danger " type="text"
-                                placeholder="Your Name">
-                            <input class="pl-4 column is-full-mobile width-268 height-36 mt-3 font-Arial input has-text-danger " type="email"
-                                placeholder="Your email">
+                            <input
+                                class="column is-full-mobile pl-3 width-268 height-36 mt-3 font-Arial input has-text-danger "
+                                type="text" placeholder="Your Name">
+                            <input
+                                class="pl-4 column is-full-mobile width-268 height-36 mt-3 font-Arial input has-text-danger "
+                                type="email" placeholder="Your email">
                             <input
                                 class="text-align pl-3 width-268 column is-full-mobile  bg-yellow has-text-black has-text-weight-bold height-36 mt-4 font-Arial input "
                                 type="submit" placeholder="Submit">
@@ -586,7 +600,8 @@ if (element && element.bulmaCarousel) {
                         </div>
                     </div>
                     <div class="w-full-resp-95 is-flex-mobile">
-                       <img class="pt-5" width="103px" height="55px" alt="img" src="./images/cat assets2/Credit_Card_Safe_grey@2x.jpg" >
+                        <img class="pt-5" width="103px" height="55px" alt="img"
+                            src="./images/cat assets2/Credit_Card_Safe_grey@2x.jpg">
                     </div>
                 </div>
             </div>
